@@ -520,7 +520,7 @@ window.DR_I18N = (() => {
   };
   for (const [code, words] of Object.entries(M)) Object.assign(S[code], words);
   S.en.up_dev = 'Run from the code, this copy does not update itself.';
-  const NATIVE = { en: 'English', zh: '简体中文', 'zh-Hant': '繁體中文', ja: '日本語', ko: '한국어', es: 'Español', fr: 'Français', de: 'Deutsch', pt: 'Português', it: 'Italiano', ru: 'Русский', hi: 'हिन्दी' };
+  const NATIVE = { en: 'English', zh: '简体中文', 'zh-Hant': '繁體中文', ja: '日本語', ko: '한국어', es: 'Español', fr: 'Français', de: 'Deutsch', pt: 'Português', it: 'Italiano', ru: 'Русский', hi: 'हिन्दी', sv: 'Svenska', da: 'Dansk' };
   const HTML_LANG = { zh: 'zh-CN', 'zh-Hant': 'zh-TW' };
   // a text that is not a paper (a web page, a README, a PDF, a letter): the questions about it in its words
   const DOCS = {
